@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="add-user-form-panel">
+        <div class="add-user-form" >
+            <label>Username: <input id="username-input" type="text" value="Alex" ></label>
+            <label>Age: <input id="age-input" type="number" value="99"></label>
+            <button onclick="addUser()">Add user</button>
+        </div>
+    </div>
+
+
+
+
+    <div id="users-list-container">
+        
+        <div id="user-card-template" class="user-card">
+            <span><b>Username:</b> {name}</span>
+            <span><b>Age:</b> {age}</span>
+            <button class="remove-button" onclick="removeUser({userId})">Remove</button>
+        </div>
+    
+    </div>
+    
+    <script src="scripts/main.js" type="module"></script>
+</body>
+</html>

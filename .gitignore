@@ -1,0 +1,17 @@
+/*.suo
+/*.user
+bin/
+obj/
+/TestResults
+/env
+/.git
+/.vs
+/packages
+*.csproj.user
+pkg/
+NugetPackage
+/.idea
+*.pubxml.user
+*.db
+*.db-shm
+*.db-wal
